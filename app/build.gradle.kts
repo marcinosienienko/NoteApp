@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.noteappwithasmrdev"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -47,7 +47,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.3.1"
     }
 
     packaging {
